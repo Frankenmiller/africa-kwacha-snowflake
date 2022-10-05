@@ -38,6 +38,19 @@
   height: 280px;
 }
 
+p {
+  background:rgba(55, 55, 55, 0.0);
+  color: darkgray;
+  position: absolute;
+  background: transparent;
+  color: #0000;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 500;
+}
+
 #header {
   top: 10%;
   background:rgba(55, 55, 55, 0.5); 
@@ -48,19 +61,23 @@
   font-family: sans-serif;
 }
 
-p {
-  background:rgba(55, 55, 55, 0.0);
-  color: darkgray;
-  position: absolute;
-  background: transparent;
-  color: #0000;
-  top: 0%;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  font-weight: 500;
+#award {
+  background:rgba(55, 55, 55, 0.5); 
+  left: 50%;
+  transform: translateX(-50%);
+  color:#fff;
   font-size: 50px;
+  bottom: 10px;
+  font-family: sans-serif;
+}
+
+#linkedin {
+  background:white; 
+  left: 50%;
+  transform: translateX(-50%);
+  color: black;
+  font-family: sans-serif;
+  bottom: 0px;
 }
 
 .preload {
@@ -142,7 +159,7 @@ p {
 }
 
 .shadow:after {
-  filter: blur(0px);
+  filter: blur(20px);
 }
 
 @keyframes animate {
@@ -161,7 +178,7 @@ p {
 /* iPhone upright */
 @media only screen and (min-width: 389px) {  
   .wrapper {
-    top: 50%;
+    top: 40%;
   }
   #certificate {
     width: 300px;
@@ -174,6 +191,13 @@ p {
   #header {
     top: 10%;
     font-size: 20px;
+  }
+  #award {
+    font-size: 20px;
+    bottom: 30%;
+  }  
+  #linkedin {
+    font-size: 24px;
   }
 } 
 
@@ -214,6 +238,13 @@ p {
     top: 5%;
     font-size: 50px;
   }
+  #award {
+    font-size: 50px;
+    bottom: 30%;
+  }  
+  #linkedin {
+    font-size: 40px;
+  }  
 } 
 
 
@@ -233,5 +264,12 @@ p {
   #header {
     top: 8%;
     font-size: 70px;
+  }
+  #award {
+    font-size: 50px;
+    bottom: 30px;
+  }
+  #linkedin {
+    font-size: 50px;
   }
 } 
