@@ -14,6 +14,7 @@
   background: linear-gradient(0deg, #000, #262626);
 }
 
+
 p {
   background:rgba(55, 55, 55, 0.0);
   color: darkgray;
@@ -44,6 +45,7 @@ p {
 .preload-finish {
   opacity: 0;
   pointer-events: none;
+  z-index: 99;
 }
 
 .cloud_1, .cloud_2, .cloud_3 {
