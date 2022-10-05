@@ -147,3 +147,14 @@ p {
     background-position: 0 0;
   }
 }
+/* 
+@media only screen and (min-width: 1200px) {  
+  #certificate {
+    width: 400px;
+    height: 280px;
+  }
+  .shadow {
+    width: 400px;
+    height: 280px;
+  }
+} */
