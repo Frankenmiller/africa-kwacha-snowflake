@@ -158,29 +158,10 @@ p {
 }
 
 
-@media only screen and (min-width: 1179px) {  
-  .wrapper {
-    top: 50%;
-  }
-  #certificate {
-    width: 500px;
-    height: 350px;
-  }
-  .shadow {
-    width: 500px;
-    height: 350px;
-  }
-  #header {
-    top: 8%;
-    font-size: 50px;
-  }
-} 
-
-
-
+/* iPhone upright */
 @media only screen and (min-width: 389px) {  
   .wrapper {
-    top: 20%;
+    top: 50%;
   }
   #certificate {
     width: 300px;
@@ -197,7 +178,7 @@ p {
 } 
 
 
-
+/* iPad sideways */
 @media only screen and (min-width: 843px) {  
   .wrapper {
     top: 22%;
@@ -216,7 +197,7 @@ p {
   }
 }
 
-
+/* iPad upright */
 @media only screen and (min-width: 810px) {  
   .wrapper {
     top: 30%;
@@ -232,5 +213,25 @@ p {
   #header {
     top: 5%;
     font-size: 50px;
+  }
+} 
+
+
+/* iPad sideways */
+@media only screen and (min-width: 1179px) {  
+  .wrapper {
+    top: 50%;
+  }
+  #certificate {
+    width: 500px;
+    height: 350px;
+  }
+  .shadow {
+    width: 500px;
+    height: 350px;
+  }
+  #header {
+    top: 8%;
+    font-size: 70px;
   }
 } 
