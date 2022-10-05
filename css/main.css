@@ -38,13 +38,23 @@
   height: 280px;
 }
 
+#header {
+  top: 10%;
+  background:rgba(55, 55, 55, 0.5); 
+  left: 50%;
+  transform: translateX(-50%);
+  color:#fff;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
 p {
   background:rgba(55, 55, 55, 0.0);
   color: darkgray;
   position: absolute;
   background: transparent;
   color: #0000;
-  top: 50%;
+  top: 0%;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -63,7 +73,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: opacity 2.5s ease 5s; /* return these values to 2.5s and 5s */
+  transition: opacity 2.5s ease .5s; /* return these values to 2.5s and 5s */
   z-index: 98;
 }
 
@@ -135,8 +145,7 @@ p {
   filter: blur(0px);
 }
 
-@keyframes animate 
-{
+@keyframes animate {
   0% {
     background-position: 0 0;
   }
@@ -147,7 +156,12 @@ p {
     background-position: 0 0;
   }
 }
+
+
 @media only screen and (min-width: 1179px) {  
+  .wrapper {
+    top: 50%;
+  }
   #certificate {
     width: 500px;
     height: 350px;
@@ -155,15 +169,18 @@ p {
   .shadow {
     width: 500px;
     height: 350px;
+  }
+  #header {
+    top: 8%;
+    font-size: 50px;
   }
 } 
 
+
+
 @media only screen and (min-width: 389px) {  
   .wrapper {
-    position: fixed;
-    left: 50%;
-    top: 10%;
-    transform: translate(-50%, 0%);
+    top: 20%;
   }
   #certificate {
     width: 300px;
@@ -172,21 +189,48 @@ p {
   .shadow {
     width: 300px;
     height: 210px;
+  }
+  #header {
+    top: 10%;
+    font-size: 20px;
   }
 } 
+
+
+
 @media only screen and (min-width: 843px) {  
   .wrapper {
-    position: fixed;
-    left: 50%;
-    top: 10%;
-    transform: translate(-50%, 0%);
+    top: 22%;
   }
   #certificate {
-    width: 300px;
-    height: 210px;
+    width: 450px;
+    height: 315px;
   }
   .shadow {
-    width: 300px;
-    height: 210px;
+    width: 450px;
+    height: 315px;
+  }
+  #header {
+    top: 8%;
+    font-size: 50px;
+  }
+}
+
+
+@media only screen and (min-width: 810px) {  
+  .wrapper {
+    top: 30%;
+  }
+  #certificate {
+    width: 500px;
+    height: 350px;
+  }
+  .shadow {
+    width: 500px;
+    height: 350px;
+  }
+  #header {
+    top: 5%;
+    font-size: 50px;
   }
 } 
