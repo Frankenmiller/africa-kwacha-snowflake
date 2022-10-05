@@ -98,7 +98,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: opacity 2.5s ease 5s; /* return these values to 2.5s and 5s */
+  transition: opacity 2.5s ease .5s; /* return these values to 2.5s and 5s */
   z-index: 98;
 }
 
@@ -197,16 +197,16 @@ p {
     height: 210px;
   }
   #header {
-    top: 12%;
+    top: 5%;
     font-size: 23px;
   }
   #award {
     font-size: 20px;
-    bottom: 53%;
+    bottom: 42%;
   }  
   #footer {
     font-size: 23px;
-    bottom: 3%;
+    bottom: 3.4%;
   }  
   #linkedin {
     font-size: 24px;
@@ -236,7 +236,7 @@ p {
 /* iPad upright */
 @media only screen and (min-width: 810px) {  
   .wrapper {
-    top: 30%;
+    top: 35%;
   }
   #certificate {
     width: 600px;
@@ -252,14 +252,14 @@ p {
   }
   #award {
     font-size: 50px;
-    bottom: 46%;
+    bottom: 40%;
   }  
   #linkedin {
     font-size: 40px;
   }  
   #footer {
     font-size: 30px;
-    bottom: 3.8%;
+    bottom: 4.0%;
   }  
 } 
 
