@@ -71,6 +71,14 @@ p {
   font-family: sans-serif;
 }
 
+#footer {
+  background:white; 
+  left: 50%;
+  transform: translateX(-50%);
+  color: black;
+  font-family: sans-serif;
+}
+
 #linkedin {
   background:white; 
   left: 50%;
@@ -178,7 +186,7 @@ p {
 /* iPhone upright */
 @media only screen and (min-width: 389px) {  
   .wrapper {
-    top: 40%;
+    top: 30%;
   }
   #certificate {
     width: 300px;
@@ -189,12 +197,16 @@ p {
     height: 210px;
   }
   #header {
-    top: 10%;
-    font-size: 20px;
+    top: 12%;
+    font-size: 23px;
   }
   #award {
     font-size: 20px;
-    bottom: 30%;
+    bottom: 53%;
+  }  
+  #footer {
+    font-size: 23px;
+    bottom: 3%;
   }  
   #linkedin {
     font-size: 24px;
@@ -227,12 +239,12 @@ p {
     top: 30%;
   }
   #certificate {
-    width: 500px;
-    height: 350px;
+    width: 600px;
+    height: 420px;
   }
   .shadow {
-    width: 500px;
-    height: 350px;
+    width: 600px;
+    height: 420px;
   }
   #header {
     top: 5%;
@@ -240,10 +252,14 @@ p {
   }
   #award {
     font-size: 50px;
-    bottom: 30%;
+    bottom: 46%;
   }  
   #linkedin {
     font-size: 40px;
+  }  
+  #footer {
+    font-size: 30px;
+    bottom: 3.8%;
   }  
 } 
 
@@ -251,7 +267,7 @@ p {
 /* iPad sideways */
 @media only screen and (min-width: 1179px) {  
   .wrapper {
-    top: 50%;
+    top: 32%;
   }
   #certificate {
     width: 500px;
@@ -262,14 +278,24 @@ p {
     height: 350px;
   }
   #header {
-    top: 8%;
+    top: 0;
     font-size: 70px;
   }
   #award {
     font-size: 50px;
-    bottom: 30px;
+    bottom: 30%;
   }
   #linkedin {
-    font-size: 50px;
+    font-size: 30px;
+    left: 950px;
+    background: transparent;
+    z-index: 5;    
+  }
+  #footer {
+    bottom: 0%;
+    font-size: 30px;
+    z-index: 5;
+    left: 250px;
+    width: 2000px;
   }
 } 
