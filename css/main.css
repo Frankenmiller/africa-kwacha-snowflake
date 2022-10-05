@@ -147,14 +147,46 @@ p {
     background-position: 0 0;
   }
 }
-/* 
-@media only screen and (min-width: 1200px) {  
+@media only screen and (min-width: 1179px) {  
   #certificate {
-    width: 400px;
-    height: 280px;
+    width: 500px;
+    height: 350px;
   }
   .shadow {
-    width: 400px;
-    height: 280px;
+    width: 500px;
+    height: 350px;
   }
-} */
+} 
+
+@media only screen and (min-width: 389px) {  
+  .wrapper {
+    position: fixed;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, 0%);
+  }
+  #certificate {
+    width: 300px;
+    height: 210px;
+  }
+  .shadow {
+    width: 300px;
+    height: 210px;
+  }
+} 
+@media only screen and (min-width: 843px) {  
+  .wrapper {
+    position: fixed;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, 0%);
+  }
+  #certificate {
+    width: 300px;
+    height: 210px;
+  }
+  .shadow {
+    width: 300px;
+    height: 210px;
+  }
+} 
