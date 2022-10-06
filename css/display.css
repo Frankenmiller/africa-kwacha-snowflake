@@ -1,15 +1,15 @@
 /* iPad sideways */
 @media only screen and (min-width: 1179px) {  
   .wrapper {
-    top: 45%;
+    top: 55%;
   }
   #certificate {
-    width: 500px;
-    height: 350px;
+    width: 700px;
+    height: 490px;
   }
   .shadow {
-    width: 500px;
-    height: 350px;
+    width: 700px;
+    height: 490px;
   }
   #header {
     top: 7.5%;
@@ -17,7 +17,6 @@
   }
   #award {
     font-size: 50px;
-    bottom: 22%;
   }
   #footer {
 		position: absolute;
@@ -35,7 +34,7 @@
 		font-size: 25px;
 		color: black;
     top: 96%;
-    z-index: 6;
+    z-index: 4;
   }  
   .bottom-banner {
     height: 55px;
@@ -47,7 +46,7 @@
 /* iPad upright */
 @media only screen and (min-width: 810px) {  
   .wrapper {
-    top: 45%;
+    top: 50%;
   }
   #certificate {
     width: 600px;
@@ -63,7 +62,6 @@
   }
   #award {
     font-size: 50px;
-    bottom: 15%;
   }  
   #footer {
     position: absolute;
@@ -81,7 +79,7 @@
 		font-size: 20px;
 		color: black;
     top: 96%;
-    z-index: 6;
+    z-index: 4;
   }  
   .bottom-banner {
     height: 55px;
@@ -94,23 +92,23 @@
 /* iPhone upright */
 @media only screen and (min-width: 389px) {  
   .wrapper {
-    top: 40%;
+
   }
   #certificate {
-    width: 300px;
-    height: 210px;
+
+
   }
   .shadow {
-    width: 300px;
-    height: 210px;
+
+
   }
   #header {
-    top: 9%;
+    top: 56px;
     font-size: 23px;
   }
   #award {
     font-size: 20px;
-    bottom: 35%;
+    top: 90px;
   }  
   #footer {
     font-size: 23px;

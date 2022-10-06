@@ -5,37 +5,37 @@
 }
 
 .wrapper {
-  position: fixed;
+  position: absolute;
   left: 50%;
-  top: 50%;
+  top: 40%;
   transform: translate(-50%, -50%);
 }
 
 .shadow {
   position: relative;
   margin: 0px auto 0px;
-  width: 400px;
-  height: 280px;
+  width: 300px;
+  height: 210px;
   background: linear-gradient(0deg, #000, #262626);
 
 }
 
 .shadow:before, .shadow:after {
   content: '';
-  left: -15px;
-  top: -15px;
+  left: -18px;
+  top: -18px;
   position: absolute;
   background: linear-gradient(45deg, #9F000F, #FFBF00, #228B22, #9F000F, #FFBF00, #228B22, #9F000F, #FFBF00, #228B22);
   background-size: 200%;
-  width: calc(100% + 30px);
-  height: calc(100% + 30px);
+  width: calc(100% + 36px);
+  height: calc(100% + 36px);
   z-index: -1;
   animation: animate 20s linear infinite;
 }
 
 #certificate {
-  width: 400px;
-  height: 280px;
+  width: 300px;
+  height: 210px;
 }
 
 p {
@@ -67,7 +67,6 @@ p {
   transform: translateX(-50%);
   color:#fff;
   font-size: 50px;
-  bottom: 10px;
   font-family: sans-serif;
 }
 
@@ -75,7 +74,7 @@ p {
   position: relative;
   display: none;
   background-color: #FFF;
-  z-index: 5;
+  z-index: 4;
 }
 
 #footer {
@@ -101,7 +100,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: opacity 2.5s ease 5s; /* return these values to 2.5s and 5s */
+  transition: opacity 2.5s ease .5s; /* return these values to 2.5s and 5s */
   z-index: 98;
 }
 
