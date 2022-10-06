@@ -1,7 +1,7 @@
 /* iPhone upright */
 @media only screen and (min-width: 389px) {  
   .wrapper {
-    top: 30%;
+    top: 40%;
   }
   #certificate {
     width: 300px;
@@ -17,19 +17,19 @@
   }
   #award {
     font-size: 20px;
-    bottom: 50%;
+    bottom: 35%;
   }  
   #footer {
     font-size: 23px;
-    bottom: 70%;
+    bottom: 20%;
   }  
   #linkedin {
-    font-size: 24px;
-    bottom: 40%;    
+    font-size: 18px;
+    top: 1.5%;    
   }
   .bottom-banner {
-    height: 100px;
-    top: 90vh;
+    height: 40px;
+    top: 80vh;
     display: block;
   }
 } 
