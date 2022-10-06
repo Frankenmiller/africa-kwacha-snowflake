@@ -1,0 +1,188 @@
+/* iPhone upright */
+@media only screen and (min-width: 389px) {  
+  .wrapper {
+    top: 30%;
+  }
+  #certificate {
+    width: 300px;
+    height: 210px;
+  }
+  .shadow {
+    width: 300px;
+    height: 210px;
+  }
+  #header {
+    top: 9%;
+    font-size: 23px;
+  }
+  #award {
+    font-size: 20px;
+    bottom: 50%;
+  }  
+  #footer {
+    font-size: 23px;
+    bottom: 70%;
+  }  
+  #linkedin {
+    font-size: 24px;
+    bottom: 40%;    
+  }
+  .bottom-banner {
+    height: 100px;
+    top: 90vh;
+    display: block;
+  }
+} 
+
+
+/* iPad sideways */
+/* @media only screen and (min-width: 843px) {  
+  .wrapper {
+    top: 22%;
+  }
+  #certificate {
+    width: 450px;
+    height: 315px;
+  }
+  .shadow {
+    width: 450px;
+    height: 315px;
+  }
+  #header {
+    top: 8%;
+    font-size: 50px;
+  }
+  .bottom-banner {
+    height: ;
+    bottom: ;
+  }
+
+} */
+
+/* iPad upright */
+@media only screen and (min-width: 810px) {  
+  .wrapper {
+    top: 45%;
+  }
+  #certificate {
+    width: 600px;
+    height: 420px;
+  }
+  .shadow {
+    width: 600px;
+    height: 420px;
+  }
+  #header {
+    top: 7%;
+    font-size: 50px;
+  }
+  #award {
+    font-size: 50px;
+    bottom: 15%;
+  }  
+  #footer {
+		position: absolute;
+		font-size: 20px;
+		color: black;
+		left: 25%;
+		transform: translateX(-50%);	
+    top: 10%;
+  }  
+  #linkedin {
+		position: absolute;
+		right: 25%;
+		transform: translateX(50%);
+		font-size: 20px;
+		color: black;
+    top: 10%;
+  }  
+  .bottom-banner {
+    height: 55px;
+    top: 95.5vh;
+    display: block;
+  }
+} 
+
+
+/* iPad sideways */
+@media only screen and (min-width: 1179px) {  
+  .wrapper {
+    top: 45%;
+  }
+  #certificate {
+    width: 500px;
+    height: 350px;
+  }
+  .shadow {
+    width: 500px;
+    height: 350px;
+  }
+  #header {
+    top: 7.5%;
+    font-size: 70px;
+  }
+  #award {
+    font-size: 50px;
+    bottom: 22%;
+  }
+  #footer {
+		position: absolute;
+		font-size: 25px;
+		color: black;
+		left: 25%;
+		transform: translateX(-50%);	
+    top: 5%;
+  }  
+  #linkedin {
+		position: absolute;
+		right: 25%;
+		transform: translateX(50%);
+		font-size: 25px;
+		color: black;
+    top: 5%;
+  }  
+  .bottom-banner {
+    height: 55px;
+    top: 95.5vh;
+    display: block;
+  }
+} 
+
+/* iPad sideways */
+/* @media only screen and (min-width: 840px) {  
+  .wrapper {
+    top: 25%;
+  }
+  #certificate {
+    width: 150px;
+    height: 105px;
+  }
+  .shadow {
+    width: 150px;
+    height: 105px;
+  }
+  #header {
+    top: 8%;
+    font-size: 12px;
+  }
+  #award {
+    font-size: 12px;
+    bottom: 50%;
+  }  
+  #linkedin {
+    font-size: 20px;
+    left: 75%;
+    top: 30%;
+  }  
+  #footer {
+    font-size: 20px;
+    left: 20%;
+    top: 30%;
+  }  
+  .bottom-banner {
+    height: 55px;
+    top: 95.5vh;
+    display: block;
+  }
+} */
+
