@@ -48,7 +48,7 @@
     width: 100%;
     min-height: 100vh;
     z-index: 5;
-    background: linear-gradient(to bottom, #040308, #191970, #F4791F);
+    background: linear-gradient(to bottom, #9F000F, #FFBF00, #228B22);
     padding-top: 120px;
     transition: 0.4s;
     font-family: sans-serif;
@@ -71,21 +71,14 @@
     max-width: 300px;
     font-size: 18px;
     margin: 0 auto 16px;
-    background-color: purple;
+    background-color: #191970;
     padding: 12px 16px;
     text-decoration: none;
 }
 
 .mobile-nav a:hover {
-    background-color: #F28500;
+    background-color: green;
     text-decoration: none;
     font-size: 19px;
-    color: #880808;
+    color: #191970;
 }
-
-/* position: fixed;
-flex-direction: row;
-    margin-bottom: 16px;
-    padding: 12px 16px;
-    background-color: aqua;
-} */
