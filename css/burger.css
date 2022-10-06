@@ -3,8 +3,8 @@
 }
 
 .hamburger {
-    top: 18px;
-    right: 18px;
+    top: 12px;
+    right: 12px;
     position: absolute;
     display: block;
     width: 35px;
@@ -28,11 +28,11 @@
 }
 
 .hamburger.is-active:before {
-    transform: rotate(-45deg) translate(-8px, 6px);
+    transform: rotate(-45deg) translate(-7.5px, 6px);
 }
 .hamburger.is-active .bar {
     opacity: 0;
 }
 .hamburger.is-active:after {
-    transform: rotate(45deg) translate(-8px, -9px);
+    transform: rotate(45deg) translate(-7.5px, -9px);
 }
