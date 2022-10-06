@@ -54,7 +54,7 @@
     font-family: sans-serif;
 }
 
-.mobile-nav h2 {
+.mobile-nav h1 {
     color: #FFF;
     text-align: center;
     padding-bottom: 25px;
@@ -68,7 +68,7 @@
     display: block;
     text-align: center;
     color: #FFF;
-    max-width: 300px;
+    max-width: 400px;
     font-size: 18px;
     margin: 0 auto 16px;
     background-color: #191970;
@@ -77,7 +77,10 @@
 }
 
 #social-icons {
-    transform: translateX(50%);
+    position: relative;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    align-items: center;
     display: flex;
     flex-direction: row;
     list-style-type: none;
