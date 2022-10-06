@@ -71,21 +71,23 @@ p {
   font-family: sans-serif;
 }
 
+.bottom-banner {
+  position: relative;
+  display: none;
+  background-color: #FFF;
+  z-index: 5;
+}
+
 #footer {
-  background:white; 
-  left: 50%;
-  transform: translateX(-50%);
+  background: none;
   color: black;
   font-family: sans-serif;
 }
 
 #linkedin {
-  background:white; 
-  left: 50%;
-  transform: translateX(-50%);
+  background: none; 
   color: black;
   font-family: sans-serif;
-  bottom: 0px;
 }
 
 .preload {
@@ -186,7 +188,7 @@ p {
 /* iPhone upright */
 @media only screen and (min-width: 389px) {  
   .wrapper {
-    top: 30%;
+    top: 25%;
   }
   #certificate {
     width: 300px;
@@ -197,19 +199,24 @@ p {
     height: 210px;
   }
   #header {
-    top: 5%;
+    top: 6.5%;
     font-size: 23px;
   }
   #award {
     font-size: 20px;
-    bottom: 42%;
+    bottom: 52%;
   }  
   #footer {
     font-size: 23px;
-    bottom: 3.4%;
+    bottom: 45%;
   }  
   #linkedin {
     font-size: 24px;
+  }
+  .bottom-banner {
+    height: 55px;
+    top: 93.5vh;
+    display: block;
   }
 } 
 
@@ -231,6 +238,11 @@ p {
     top: 8%;
     font-size: 50px;
   }
+  .bottom-banner {
+    height: ;
+    bottom: ;
+  }
+
 }
 
 /* iPad upright */
@@ -254,13 +266,27 @@ p {
     font-size: 50px;
     bottom: 40%;
   }  
-  #linkedin {
-    font-size: 40px;
-  }  
   #footer {
-    font-size: 30px;
-    bottom: 4.0%;
+		position: absolute;
+		font-size: 20px;
+		color: black;
+		left: 25%;
+		transform: translateX(-50%);	
+    top: 30%;
   }  
+  #linkedin {
+		position: absolute;
+		right: 25%;
+		transform: translateX(50%);
+		font-size: 20px;
+		color: black;
+    top: 30%;
+  }  
+  .bottom-banner {
+    height: 55px;
+    top: 95.5vh;
+    display: block;
+  }
 } 
 
 
@@ -286,16 +312,18 @@ p {
     bottom: 30%;
   }
   #linkedin {
-    font-size: 30px;
-    left: 950px;
-    background: transparent;
-    z-index: 5;    
-  }
+    font-size: 20px;
+    left: 75%;
+    top: 30%;
+  }  
   #footer {
-    bottom: 0%;
-    font-size: 30px;
-    z-index: 5;
-    left: 250px;
-    width: 2000px;
+    font-size: 20px;
+    left: 20%;
+    top: 30%;
+  }  
+  .bottom-banner {
+    height: 55px;
+    top: 95.5vh;
+    display: block;
   }
 } 
