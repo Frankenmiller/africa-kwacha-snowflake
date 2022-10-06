@@ -82,6 +82,7 @@ p {
   background: none;
   color: black;
   font-family: sans-serif;
+  display: none;
 }
 
 #linkedin {

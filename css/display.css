@@ -26,9 +26,10 @@
 		left: 25%;
 		transform: translateX(-50%);	
     top: 5%;
+    display: block;
   }  
   #linkedin {
-		position: absolute;
+    position: absolute;
 		right: 25%;
 		transform: translateX(50%);
 		font-size: 25px;
@@ -65,15 +66,16 @@
     bottom: 15%;
   }  
   #footer {
-		position: absolute;
+    position: absolute;
 		font-size: 20px;
 		color: black;
 		left: 25%;
 		transform: translateX(-50%);	
     top: 10%;
+    display: block;
   }  
   #linkedin {
-		position: absolute;
+    position: absolute;
 		right: 25%;
 		transform: translateX(50%);
 		font-size: 20px;
@@ -115,8 +117,8 @@
     bottom: 20%;
   }  
   #linkedin {
-    font-size: 18px;
-    top: 1.5%;    
+    font-size: 20px;
+    top: 15%;    
   }
   .bottom-banner {
     height: 40px;
