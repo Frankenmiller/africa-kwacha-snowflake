@@ -76,9 +76,18 @@
     text-decoration: none;
 }
 
+#social-icons {
+    transform: translateX(50%);
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
 .mobile-nav a:hover {
     background-color: green;
     text-decoration: none;
-    font-size: 19px;
+    font-size: 25px;
     color: #191970;
+    font-weight: 600;
 }
+
