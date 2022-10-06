@@ -94,7 +94,8 @@
 		transform: translateX(50%);
 		font-size: 20px;
 		color: black;
-    top: 10%;
+    top: 96%;
+    z-index: 6;
   }  
   .bottom-banner {
     height: 55px;
@@ -139,7 +140,8 @@
 		transform: translateX(50%);
 		font-size: 25px;
 		color: black;
-    top: 5%;
+    top: 96%;
+    z-index: 6;
   }  
   .bottom-banner {
     height: 55px;
