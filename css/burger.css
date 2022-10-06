@@ -29,10 +29,42 @@
 
 .hamburger.is-active:before {
     transform: rotate(-45deg) translate(-7.5px, 6px);
+    background-color: #FFF;
 }
 .hamburger.is-active .bar {
     opacity: 0;
+    background-color: #FFF;
 }
 .hamburger.is-active:after {
     transform: rotate(45deg) translate(-7.5px, -9px);
+    background-color: #FFF;
 }
+
+.mobile-nav {
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    z-index: 5;
+    background: linear-gradient(to bottom, #040308, #191970, #F4791F);
+    padding-top: 120px;
+}
+
+.mobile-nav a {
+    display: block;
+    text-align: center;
+    color: #FFF;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-bottom: 16px;
+    padding: 16px;
+}
+
+/* position: fixed;
+flex-direction: row;
+    margin-bottom: 16px;
+    padding: 12px 16px;
+    background-color: aqua;
+} */

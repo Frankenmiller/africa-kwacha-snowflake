@@ -74,7 +74,7 @@ p {
   position: relative;
   display: none;
   background-color: #FFF;
-  z-index: 5;
+  z-index: 4;
 }
 
 #footer {
