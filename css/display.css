@@ -1,63 +1,47 @@
-/* iPhone upright */
-@media only screen and (min-width: 389px) {  
+/* iPad sideways */
+@media only screen and (min-width: 1179px) {  
   .wrapper {
-    top: 40%;
+    top: 45%;
   }
   #certificate {
-    width: 300px;
-    height: 210px;
+    width: 500px;
+    height: 350px;
   }
   .shadow {
-    width: 300px;
-    height: 210px;
+    width: 500px;
+    height: 350px;
   }
   #header {
-    top: 9%;
-    font-size: 23px;
+    top: 7.5%;
+    font-size: 70px;
   }
   #award {
-    font-size: 20px;
-    bottom: 35%;
-  }  
+    font-size: 50px;
+    bottom: 22%;
+  }
   #footer {
-    font-size: 23px;
-    bottom: 20%;
+		position: absolute;
+		font-size: 25px;
+		color: black;
+		left: 25%;
+		transform: translateX(-50%);	
+    top: 5%;
   }  
   #linkedin {
-    font-size: 18px;
-    top: 1.5%;    
-  }
+		position: absolute;
+		right: 25%;
+		transform: translateX(50%);
+		font-size: 25px;
+		color: black;
+    top: 96%;
+    z-index: 6;
+  }  
   .bottom-banner {
-    height: 40px;
-    top: 85vh;
+    height: 55px;
+    top: 95.5vh;
     display: block;
   }
 } 
-
-
-/* iPad sideways */
-/* @media only screen and (min-width: 843px) {  
-  .wrapper {
-    top: 22%;
-  }
-  #certificate {
-    width: 450px;
-    height: 315px;
-  }
-  .shadow {
-    width: 450px;
-    height: 315px;
-  }
-  #header {
-    top: 8%;
-    font-size: 50px;
-  }
-  .bottom-banner {
-    height: ;
-    bottom: ;
-  }
-
-} */
 
 /* iPad upright */
 @media only screen and (min-width: 810px) {  
@@ -105,47 +89,38 @@
 } 
 
 
-/* iPad sideways */
-@media only screen and (min-width: 1179px) {  
+/* iPhone upright */
+@media only screen and (min-width: 389px) {  
   .wrapper {
-    top: 45%;
+    top: 40%;
   }
   #certificate {
-    width: 500px;
-    height: 350px;
+    width: 300px;
+    height: 210px;
   }
   .shadow {
-    width: 500px;
-    height: 350px;
+    width: 300px;
+    height: 210px;
   }
   #header {
-    top: 7.5%;
-    font-size: 70px;
+    top: 9%;
+    font-size: 23px;
   }
   #award {
-    font-size: 50px;
-    bottom: 22%;
-  }
+    font-size: 20px;
+    bottom: 35%;
+  }  
   #footer {
-		position: absolute;
-		font-size: 25px;
-		color: black;
-		left: 25%;
-		transform: translateX(-50%);	
-    top: 5%;
+    font-size: 23px;
+    bottom: 20%;
   }  
   #linkedin {
-		position: absolute;
-		right: 25%;
-		transform: translateX(50%);
-		font-size: 25px;
-		color: black;
-    top: 96%;
-    z-index: 6;
-  }  
+    font-size: 18px;
+    top: 1.5%;    
+  }
   .bottom-banner {
-    height: 55px;
-    top: 95.5vh;
+    height: 40px;
+    top: 85vh;
     display: block;
   }
 } 
