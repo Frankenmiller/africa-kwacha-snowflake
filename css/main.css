@@ -100,7 +100,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: opacity 2.5s ease .5s; /* return these values to 2.5s and 5s */
+  transition: opacity 2.5s ease 5s; /* return these values to 2.5s and 5s */
   z-index: 98;
 }
 
